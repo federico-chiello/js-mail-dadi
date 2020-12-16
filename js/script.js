@@ -5,3 +5,8 @@ var giocatore = Math.floor(Math.random() * 6) + 1;
 // console.log(giocatore);
 
 document.getElementById('utente').innerHTML = giocatore;
+
+var computer = Math.floor(Math.random() * 6) + 1;
+// console.log(computer);
+
+document.getElementById('utente-due').innerHTML = computer;
