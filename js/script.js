@@ -17,9 +17,9 @@ var pareggio = 'Parità';
 
 // Inseriamo le istruzioni condizionali per realizzare il gioco e fare vincere il giocatore con il punteggio più alto.
 if (giocatore > computer) {
-  document.getElementById('risultato').innerHTML += 'Ha vinto:' + vincitoreUno;
+  document.getElementById('risultato').innerHTML = 'Ha vinto: ' + vincitoreUno;
 } else if (computer > giocatore) {
-  document.getElementById('risultato').innerHTML += 'Ha vinto:' + vincitoreDue;
+  document.getElementById('risultato').innerHTML = 'Ha vinto: ' + vincitoreDue;
 } else if(computer == giocatore) {
-  document.getElementById('risultato').innerHTML += '' + pareggio;
+  document.getElementById('risultato').innerHTML = ' ' + pareggio;
 }
